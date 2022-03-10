@@ -210,6 +210,6 @@ int main()
     auto finish = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double, std::chrono::seconds::period> elapsedTime = finish - start;
     std::cout << "time " << elapsedTime.count() << 's' << std::endl;
-    
+    return 0;
 }
     
