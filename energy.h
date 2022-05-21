@@ -6,7 +6,7 @@
 struct energy_constants
 {
 	double baseLen ;
-    double baseLenTrue;//= 4.085;
+    	double baseLenTrue;//= 4.085;
 	double E_c;     //= -2.960;
 	double B;       //= 1.08;
 	double C11;     //= 1.32;
@@ -15,7 +15,7 @@ struct energy_constants
 	double E_sol;   //= 0.539;
 	double E_in;    //= 0.06;
 	double E_on;    //= -0.56;
-    double alpha;
+    	double alpha;
 	double epsilon;
 };
 
